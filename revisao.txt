@@ -1,0 +1,21 @@
+variaveis: variavel é a criação de um espaço em branco na memoria com nome e endereço onde pode guardar (valores)
+tipos de variaveis: int,float,bool,string,char
+
+
+constante: é uma variavel que não pode ter seus dados modificados 
+
+
+oque sao variaveis ?
+
+quais os principais tipos ?
+
+string : sao textos ou caracteres
+int: numeros inteiros
+float: numeros fracionarios
+bool: verdadeiro | falso
+
+qual a diferença entre variaveis e constantes?
+
+variavel: pode alterar o conteudo
+constante: não sofre alteração em seu conteudo 
+
