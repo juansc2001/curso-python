@@ -1,18 +1,11 @@
 
 .pagina{
-    background-image: url(imagens/headImg.jpeg);
+    background-image: url(imagens/backgrund.jfif);
 }
 /*configura a formatação do titulo*/
 .titulolado{
-    padding:20px;
-    margin: 10px;
+    background-color: beige;
     border:solid;
-    width: 500px;
-    height:50px;
-    
-    border-radius: 5px;
-    border-color: black;
-    background-image: url(imagens/cabeçalho.jpeg);
 }
 
 /*posiciona o titulo lado a lado*/
@@ -27,7 +20,8 @@
     width:300px;
     height:400px;
     margin:10px;
-    background-image: url(imagens/cards2.jpeg);
+    background-color: antiquewhite;
+    /* background-image: url(imagens/cards2.jpeg); */
 
 }
 
@@ -42,5 +36,5 @@
 .footpe{
     border:solid;
     height:150px;
-    background-color: aliceblue;
+    background-color: antiquewhite;
 }
