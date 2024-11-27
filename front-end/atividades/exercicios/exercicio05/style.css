@@ -1,6 +1,46 @@
+
+.pagina{
+    background-image: url(imagens/headImg.jpeg);
+}
+/*configura a formatação do titulo*/
 .titulolado{
-    margin-left: 10px;
+    padding:20px;
+    margin: 10px;
+    border:solid;
+    width: 500px;
+    height:50px;
+    
     border-radius: 5px;
     border-color: black;
+    background-image: url(imagens/cabeçalho.jpeg);
+}
 
+/*posiciona o titulo lado a lado*/
+.flextitle{
+    display:flex;
+}
+
+/*configura a posiçao dos card do curso*/
+.cards{
+    position: relative;
+    border:solid;
+    width:300px;
+    height:400px;
+    margin:10px;
+    background-image: url(imagens/cards2.jpeg);
+
+}
+
+/*posiciona o botão no canto direito do card*/
+.botao{
+    position:absolute;
+    left: 212px;
+    bottom: 0px;
+    color:blue;
+}
+
+.footpe{
+    border:solid;
+    height:150px;
+    background-color: aliceblue;
 }
