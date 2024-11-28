@@ -1,0 +1,30 @@
+*reset{
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+.cabeçalho{
+    width:100vw;
+    height:10vw;
+    background-color: darkgrey;
+    top:0;
+    
+}
+
+.img{
+    width: 5vw;
+    height: 5vw;
+    position:relative;
+    left:50vw;
+    bottom:-2vw;
+}
+
+.rodape{
+    text-align:center;
+    width:100vw;
+    height:10vw;
+    background-color: darkgrey;
+    position:fixed;
+    bottom:0;
+}
