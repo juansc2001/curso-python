@@ -28,3 +28,14 @@
     position:fixed;
     bottom:0;
 }
+
+.centro{
+    display:flex;
+    /* border:solid; */
+    width: 100vw;
+    height:77vh;
+}
+
+.seções{
+    width: 50vw;
+}
