@@ -1,0 +1,55 @@
+escolha: Blog
+exemplo: https://www.greenpeace.org/brasil/blog/
+
+tema de cores: 
+#1B2E40
+#49AABF
+#A9D9D4
+#E9F2F0
+#F2594B
+
+
+
+
+
+
+
+
+
+
+
+
+Objetivo:
+Desenvolver habilidades de planejamento e prototipagem utilizando o app Moqups para criar um wireframe funcional de uma página inicial de um site.
+
+Descrição da Atividade:
+Escolha do Tema: Selecione um tema para o site que será criado. Aqui estão algumas sugestões de tipos de site que você pode desenvolver:
+
+Blog Pessoal: Para compartilhar artigos, histórias ou pensamentos.
+Gerenciamento de Tarefas: Um site para organizar e acompanhar tarefas.
+Agenda de Eventos: Um portal para exibir eventos futuros e passados.
+Gerenciamento de Livros: Uma interface para gerenciar leituras e resenhas.
+Reservas de Salas: Um site para agendar e gerenciar salas de reunião.
+Portal de Notícias: Uma página inicial para exibir notícias recentes.
+Criação do Wireframe:
+Use o app.moqups.com para projetar o wireframe da página inicial do site, garantindo que a estrutura inclua:
+
+Cabeçalho: Com o nome ou logo do site, barra de navegação e (opcional) botão de login/cadastro.
+Corpo: Espaço principal para o conteúdo, como seções para texto, imagens ou listagens.
+Rodapé: Inclua informações de contato, links úteis ou direitos autorais.
+Incorpore Imagens:
+
+Adicione espaços reservados para imagens e logos. Você poderá gerar imagens ou logos simples usando ferramentas como o gemini ou pesquisar na internet.
+
+Mantenha a Simplicidade:
+O foco é criar um layout funcional e esteticamente organizado, sem excessos.
+
+Nota: O wireframe será a base para a implementação do site futuramente. Mantenha o design simples, pois será necessário codificá-lo em HTML e CSS.
+
+Paletas de cores:
+
+Utilize o https://color.adobe.com/pt/create/color-wheel para ajudar a criar a paleta de cores. 
+
+
+
+
