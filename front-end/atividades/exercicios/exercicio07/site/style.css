@@ -1,8 +1,102 @@
-.head{
-    display:flex;
+/*reset*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
-.img{
-    width: 150px;
-    height: 150px;
+
+.topo{
+    position:static; /* indica que o topo deve ficar fixo */
+    background-color: #49AABF; /* cor de fundo */
+    box-shadow: 0px 0px 20px 0px #49AABF; /* sombreamento */
+    height: 10vh; /* altura relacionado a visualisação da tela */
+    width: 100vw; /* largura relacionado a visualisação da tela */
+    display:flex; /* permite manipular elementos dentro do topo */ 
+    justify-content:left; /* posiciona os itens no lado esquerdo */
+    align-content:center; /* alinha os itens no centro de forma vertical */
+    flex-direction:row; /* indica que os elementos devem ficar lado a lado  */
+
+}
+
+.corpo{
+    background-color: #A9D9D4;
+    width: 50vw;
+    height: 150vh;
+    /* border: solid; */
+    position: relative;
+    bottom: 0;
+    left: 25vw;
+    display:flex;
+    flex-direction: column;
+    margin-top:1px;
+    border: 2px;
+
+}
+
+.rodape{
+    /* faz o rodape deve ficar posicionado em determinada posição relativo ao elementos na pagina */
+    position:relative;
+    bottom:0; /*indica que o rodape ficara em baixo*/
+    display:flex; /* permite manipular elementos que estejão dentro da tag */
+    justify-content:center; /* alinha conteudo de forma horisontal */
+    align-content: center;    /* alinhar conteudo de forma horisontal */
+    background-color: #49AABF; /* cor de fundo */
+    box-shadow: 0px 0px 20px 0px #49AABF; /* cor da sombra */
+    width: 100vw;   /* largura */
+    height: 10vh; /*altura*/
+    margin-top: 1px; /*define o espaçamento entre os elementos ao topo */
+}
+
+
+.barra{
+    height: 10vh; /*altura*/
+    width:25vw; /* largura */
+    background-color: aliceblue;
+    position:absolute; /*posição relativa ao ancestral mais perto*/
+    right: 0; /*indica que o elemento deve ficar ao lado direito*/
+    display: flex; /*permidir manipulação dos elementos internos*/
+    justify-content: center;
+
+}
+
+.lupa{ /* gerencia a imagem da lupa */
+    width: 3vw;
+    height: 3vh;
+}
+
+.img_noticias{/*imagem das noticias*/
+    width: 250px;
+    height: 250px;
+    padding-top: 50px;
+}
+
+
+.img{ /*gerencia a imagem do logo*/
+    width: 10vw;
+    height: 10vh;
+}
+
+
+.secoes{/*divisão de noticias*/
+    display:flex;
+    flex-direction:row; /* alinhar os elementos em linha */
+    align-content: center;
+    overflow-wrap: break-word;
+}
+
+h1{
+    
+    color:#F2594B ;
+}
+
+p{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.titleblog{
+    margin-bottom: 40px;
+    border-color:black;
+    border-bottom:10px; /*deveria estar colocando uma linha em baixo*/
 }
