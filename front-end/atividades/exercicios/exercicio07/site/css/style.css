@@ -15,7 +15,7 @@
     z-index: 1;
     background-color: #49AABF; /* cor de fundo */
     box-shadow: 0px 0px 20px 0px #49AABF; /* sombreamento */
-    height: auto; /* altura relacionado a visualisação da tela */
+    height: 100px; /* altura relacionado a visualisação da tela */
     width: 100%; /* largura relacionado a visualisação da tela */
 }
 
@@ -25,18 +25,31 @@
     position: relative;
     left: 4px;
     bottom: -17px;
+    background-color: aliceblue;
 }
 
 .topo #img_logo {
     height: 4em;
-    margin-left: 2em;
-    margin-right: -70em;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 .topo div input{
     width: 25vw;
     height: 10vh;
     border: 0;
 }
+
+/*ajusta o titulo do site que esta no meu cabeçalho*/
+header #titulo_site{
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+header #titulo_site h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 .corpo{    
     background-color: #A9D9D4;
@@ -76,7 +89,7 @@
     /* right: 0; */ /*indica que o elemento deve ficar ao lado direito*/
     /* display: flex;  *//*permidir manipulação dos elementos internos*/
     /* justify-content: center; */
-
+    background-color: aliceblue;
 }
 
 .lupa{ /* gerencia a imagem da lupa */
@@ -121,23 +134,28 @@ p{
 }
 
 
-@media(max-width:375px){
+@media only screen and (max-width:900px) {
+
+    .img_noticias{/*imagem das noticias*/
+        width: 100px;
+        height: 100px;
+        padding-top: 25px;
+    }
+
+    .corpo{    
+        background-color: #A9D9D4;
+        width: 500px;
+        height: 150vh;
+        /* border: solid; */
+        position: relative;
+        bottom: -8em;
+        left: 25vw;
+        display:block;
+        flex-direction: column;
+        /* margin-top:1px; */
+        border: 2px;
     
-    .secoes{
-        width: 400px;
-        height: 400px;
     }
     
-    .img_noticias{
-        width: 50px;
-        height: 50px;
-    }
-
-    p{
-        font-size: smaller;
-        overflow: scroll;
-    }
-
-
 
 }

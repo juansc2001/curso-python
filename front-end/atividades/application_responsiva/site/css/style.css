@@ -1,0 +1,177 @@
+/*reset*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+.topo{
+    display:flex; /* permite manipular elementos dentro do topo */ 
+    justify-content:space-between; /* posiciona os itens no lado esquerdo */
+    align-items:center; /* alinha os itens no centro de forma vertical */
+    flex-direction:row; /* indica que os elementos devem ficar lado a lado  */
+    position:fixed; /* indica que o topo deve ficar fixo */
+    z-index: 1;
+    background-color: #49AABF; /* cor de fundo */
+    box-shadow: 0px 0px 20px 0px #49AABF; /* sombreamento */
+    height: 100px; /* altura relacionado a visualisação da tela */
+    width: 100%; /* largura relacionado a visualisação da tela */
+}
+
+.topo #img_barra {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 4px;
+    bottom: -17px;
+    background-color: aliceblue;
+}
+
+.topo #img_logo {
+    height: 4em;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.topo div input{
+    width: 25vw;
+    height: 10vh;
+    border: 0;
+}
+
+/*ajusta o titulo do site que esta no meu cabeçalho*/
+header #titulo_site{
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+header #titulo_site h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.corpo{    
+    background-color: #A9D9D4;
+    width: 50vw;
+    height: 150vh;
+    /* border: solid; */
+    position: relative;
+    bottom: -8em;
+    left: 25%;
+    display:block;
+    flex-direction: column;
+    /* margin-top:1px; */
+    border: 2px;
+
+}
+
+.rodape{
+    /* faz o rodape deve ficar posicionado em determinada posição relativo ao elementos na pagina */
+    position:relative;
+    bottom:-10em; /*indica que o rodape ficara em baixo*/
+    display:flex; /* permite manipular elementos que estejão dentro da tag */
+    justify-content:center; /* alinha conteudo de forma horisontal */
+    align-content: center;    /* alinhar conteudo de forma horisontal */
+    background-color: #49AABF; /* cor de fundo */
+    box-shadow: 0px 0px 20px 0px #49AABF; /* cor da sombra */
+    width: 100vw;   /* largura */
+    height: 10vh; /*altura*/
+    margin-top: 1px; /*define o espaçamento entre os elementos ao topo */
+}
+
+
+.barra{
+    /* height: 10vh;  *//*altura*/
+    /* width:25vw; */ /* largura */
+    /* background-color: aliceblue; */
+    /* position:absolute;  *//*posição relativa ao ancestral mais perto*/
+    /* right: 0; */ /*indica que o elemento deve ficar ao lado direito*/
+    /* display: flex;  *//*permidir manipulação dos elementos internos*/
+    /* justify-content: center; */
+    background-color: aliceblue;
+}
+
+.lupa{ /* gerencia a imagem da lupa */
+    width: 3vw;
+    height: 3vh;
+}
+
+.img_noticias{/*imagem das noticias*/
+    width: 250px;
+    height: 250px;
+    padding-top: 50px;
+}
+
+
+.img{ /*gerencia a imagem do logo*/
+    width: 10vw;
+    height: 10vh;
+}
+
+
+.secoes{/*divisão de noticias*/
+    display:flex;
+    flex-direction:row; /* alinhar os elementos em linha */
+    align-content: center;
+    overflow-wrap: break-word;
+}
+
+h1{
+    
+    color:#F2594B ;
+}
+
+p{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.titleblog{
+    margin-bottom: 40px;
+    border-color:black;
+    border-bottom:10px; /*deveria estar colocando uma linha em baixo*/
+}
+
+
+@media only screen and (max-width:900px) {
+
+    
+    .img_noticias{/*imagem das noticias*/
+        width: 100px;
+        height: 100px;
+        padding-top: 25px;
+    }
+
+    /*main do index*/
+    .corpo{    
+        background-color: #A9D9D4;
+        width: 500px;
+        height: 125vh;
+        margin-bottom: 1px;
+       
+        border: solid;
+        position:relative;
+        bottom: -8em;
+        display:block;
+        flex-direction: column;
+        /* margin-top:1px; */
+    
+    }
+
+    .rodape{
+        /* faz o rodape deve ficar posicionado em determinada posição relativo ao elementos na pagina */
+        position:relative;
+        bottom:-10em; /*indica que o rodape ficara em baixo*/
+        display:flex; /* permite manipular elementos que estejão dentro da tag */
+        justify-content:center; /* alinha conteudo de forma horisontal */
+        align-content: center;    /* alinhar conteudo de forma horisontal */
+        background-color: #49AABF; /* cor de fundo */
+        box-shadow: 0px 0px 20px 0px #49AABF; /* cor da sombra */
+        width: 100vw;   /* largura */
+        height: 100px; /*altura*/
+        margin-top: 1px; /*define o espaçamento entre os elementos ao topo */
+    }
+    
+
+}
