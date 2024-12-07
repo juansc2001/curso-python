@@ -149,13 +149,38 @@ p{
         /* border: solid; */
         position: relative;
         bottom: -8em;
-        left: 25vw;
         display:block;
         flex-direction: column;
         /* margin-top:1px; */
         border: 2px;
     
     }
+
+    .rodape{
+        /* faz o rodape deve ficar posicionado em determinada posição relativo ao elementos na pagina */
+        position:relative;
+        bottom:-10em; /*indica que o rodape ficara em baixo*/
+        display:flex; /* permite manipular elementos que estejão dentro da tag */
+        justify-content:center; /* alinha conteudo de forma horisontal */
+        align-content: center;    /* alinhar conteudo de forma horisontal */
+        background-color: #49AABF; /* cor de fundo */
+        box-shadow: 0px 0px 20px 0px #49AABF; /* cor da sombra */
+        width: 100vw;   /* largura */
+        height: 10vh; /*altura*/
+        margin: 1px; /*define o espaçamento entre os elementos ao topo */
+    }
     
+    header div .barra{
+        /* height: 10vh;  *//*altura*/
+        /* width:25vw; */ /* largura */
+        /* background-color: aliceblue; */
+        /* position:absolute;  *//*posição relativa ao ancestral mais perto*/
+        /* right: 0; */ /*indica que o elemento deve ficar ao lado direito*/
+        /* display: flex;  *//*permidir manipulação dos elementos internos*/
+        /* justify-content: center; */
+        background-color: aliceblue;
+
+    }
 
 }
+
