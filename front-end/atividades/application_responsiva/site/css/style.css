@@ -19,6 +19,10 @@
     width: 100%; /* largura relacionado a visualisação da tela */
 }
 
+.barra{
+    background-color: aliceblue;
+}
+
 .topo #img_barra {
     width: 50px;
     height: 50px;
@@ -35,7 +39,7 @@
 }
 .topo div input{
     width: 25vw;
-    height: 10vh;
+    height: 7vh;
     border: 0;
 }
 
@@ -54,7 +58,7 @@ header #titulo_site h1{
 .corpo{    
     background-color: #A9D9D4;
     width: 50vw;
-    height: 150vh;
+    height: auto;
     border: solid;
     position: relative;
     bottom: -8em;
@@ -79,17 +83,6 @@ header #titulo_site h1{
     margin-top: 1px; /*define o espaçamento entre os elementos ao topo */
 }
 
-
-.barra{
-    /* height: 10vh;  *//*altura*/
-    /* width:25vw; */ /* largura */
-    /* background-color: aliceblue; */
-    /* position:absolute;  *//*posição relativa ao ancestral mais perto*/
-    /* right: 0; */ /*indica que o elemento deve ficar ao lado direito*/
-    /* display: flex;  *//*permidir manipulação dos elementos internos*/
-    /* justify-content: center; */
-    background-color: aliceblue;
-}
 
 .lupa{ /* gerencia a imagem da lupa */
     width: 3vw;
@@ -146,7 +139,7 @@ p{
     .corpo{    
         background-color: #A9D9D4;
         width: 500px;
-        height: 125vh;
+        height: auto;
         margin-bottom: 1px;
        
         border: solid;
@@ -161,7 +154,7 @@ p{
     .rodape{
         /* faz o rodape deve ficar posicionado em determinada posição relativo ao elementos na pagina */
         position:relative;
-        bottom:-10em; /*indica que o rodape ficara em baixo*/
+        bottom:-25vh; /*indica que o rodape ficara em baixo*/
         display:flex; /* permite manipular elementos que estejão dentro da tag */
         justify-content:center; /* alinha conteudo de forma horisontal */
         align-content: center;    /* alinhar conteudo de forma horisontal */
@@ -189,7 +182,7 @@ p{
     .corpo{    
         background-color: #A9D9D4;
         width: 500px;
-        height: 125vh;
+        height: auto;
         margin-bottom: 1px;
        
         border: solid;
@@ -204,7 +197,7 @@ p{
     .rodape{
         /* faz o rodape deve ficar posicionado em determinada posição relativo ao elementos na pagina */
         position:relative;
-        bottom:-20em; /*indica que o rodape ficara em baixo*/
+        bottom:-25vh; /*indica que o rodape ficara em baixo*/
         display:flex; /* permite manipular elementos que estejão dentro da tag */
         justify-content:center; /* alinha conteudo de forma horisontal */
         align-content: center;    /* alinhar conteudo de forma horisontal */
@@ -229,6 +222,7 @@ p{
 
     header div #input{
         width:45vw;
+        height: 7vh;
     }
     
 
@@ -249,7 +243,7 @@ p{
     .corpo{    
         background-color: #A9D9D4;
         width: 500px;
-        height: 125vh;
+        height: auto;
         margin-bottom: 1px;
        
         border: solid;
@@ -264,7 +258,7 @@ p{
     .rodape{
         /* faz o rodape deve ficar posicionado em determinada posição relativo ao elementos na pagina */
         position:relative;
-        bottom:-25em; /*indica que o rodape ficara em baixo*/
+        bottom:-25vh; /*indica que o rodape ficara em baixo*/
         display:flex; /* permite manipular elementos que estejão dentro da tag */
         justify-content:center; /* alinha conteudo de forma horisontal */
         align-content: center;    /* alinhar conteudo de forma horisontal */
@@ -289,6 +283,7 @@ p{
 
     header div #input{
         width:45vw;
+        height:7vh;
     }
     
 
@@ -298,23 +293,23 @@ p{
     .rodape{
         /* faz o rodape deve ficar posicionado em determinada posição relativo ao elementos na pagina */
         position:relative;
-        bottom:-50em; /*indica que o rodape ficara em baixo*/
+        bottom:-35vh; /*indica que o rodape ficara em baixo*/
         display:flex; /* permite manipular elementos que estejão dentro da tag */
         justify-content:center; /* alinha conteudo de forma horisontal */
         align-content: center;    /* alinhar conteudo de forma horisontal */
         background-color: #49AABF; /* cor de fundo */
         box-shadow: 0px 0px 20px 0px #49AABF; /* cor da sombra */
         width: 700px;   /* largura */
-        height: 200px; /*altura*/
+        height: 100px; /*altura*/
         margin-top: 1px; /*define o espaçamento entre os elementos ao topo */
     }
 }
 
-@media only screen and (max-height:700px) {
+@media only screen and (max-height:700px){
     .corpo{    
         background-color: #A9D9D4;
         width: 500px;
-        height: 125vh;
+        height: auto;
         margin-bottom: 1px;
        
         /* border: solid; */
@@ -335,5 +330,22 @@ p{
     .rodape{
         margin-top: 50px;
         margin-bottom: 50px;
+        position:relative;
+        bottom:-25vhvh;
+        width: auto;   /* largura */
+        height: 200px; /*altura*/
+
     }
 } 
+
+@media only screen and (max-height:700px) and (max-width:380px){
+    .rodape{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        position:relative;
+        bottom:-25vhvh;
+        width: 700px;   /* largura */
+        height: 100px; /*altura*/
+
+    }
+}
