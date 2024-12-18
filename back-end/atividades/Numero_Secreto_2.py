@@ -1,85 +1,71 @@
-"""
-escolher numero 
 
-pegar do usuario 
+pontos_do_jogador = 100 #pontos que o jogador tera e que serao subtraidos ao decorrer do jogo 
 
-decidir de ele acertou o numero 
+numero_sorteado = 31 #é o numero que o usuario tem q acertar
 
+numero_usuario = " " #vai guardar a resposta do usuario 
 
-1quantidade de vezes que o usuario pode tentar (
+dificuldade = input("escolha uma dificuldade: facil, normal ou dificil: ")#guardar  a dificuldade desejada pelo jogador
 
-escolha a dificuldade que o jogador quer
-
-entre os 3 facil mediu e dificil 
-
-
-guardar o nivel que o jogador escolheu 
-
-
-
-
-
-)
-
-marcar os pontos do jogador 
-
-mudar a pontuação de acordo com os niveis 
-
-
-
-
-
-
-
-informar o jogador quantos pontos ele tem
-
-informar o jogador quantas tentativas ainda restam 
-"""
-pontos_inicio_jogador = 100
-
-numero_sorteado = 50
-
-numero_usuario = int( input("escolha um numero: ") )
-
-dificuldade = input("escolha uma dificuldade: facil, normal ou dificil")
-
+#configura o jogo para as dificuldades facil normal e dificil
 if(dificuldade == "facil"):
     print("você tem 30 tentativas")
     tentativas = 30
-    pontos_jogador = -10
+    pontos_subtraidos_jogador = 10
 
 elif(dificuldade == "normal"):
     print("você tem 15 tentativas")
     tentativas = 15
-    pontos_jogador = -20
+    pontos_subtraidos_jogador = 20
 
 
 elif(dificuldade == "dificil"):
     print("você tem 5 tentativas")
     tentativas = 5
-    pontos_jogador = -50  
+    pontos_subtraidos_jogador = 50  
+
+
+numero_usuario = int( input("escolha um numero de 1 a 100: ") ) #pega o numero para o sorteio
+
+
+#verifica se o usuario acertou ou não, faz o calculo da pontuação e tentativas restantes.
+# este loop ira funcionar até o usuario acertar o numero ou as tentativas acabarem
+while(tentativas >= 0):
+
+    #se o usuario acertar o numero
+    if(numero_sorteado == numero_usuario):
+        print("")
+        print(f"você acertou, sua pontuação total é de {pontos_do_jogador}")
+        break
+
+    #como o usurario não acertou o numero, algumas punições serao aplicadas
+    tentativas -= 1
+    pontos_do_jogador -= pontos_subtraidos_jogador
+    if(pontos_do_jogador <= 0):# para que o jogador não perca mais que zero pontos
+        pontos_do_jogador = 0
 
 
 
+    #se o usuario escolher um numero errado
+    if(numero_sorteado > numero_usuario):
+        
+        #informa a para o jogador alguns dados 
+        print("")
+        print(f"você errou,o numero sorteado é maior que {numero_usuario} , sua pontuação atual é de {pontos_do_jogador}")
+        print(f"você tem atualmente {tentativas} tentativas para acertar")
 
+    #se o usuario escolher um numero maior que o numero sorteado
+    elif(numero_sorteado < numero_usuario):
 
+        #informa a para o jogador alguns dados 
+        print("")
+        print(f"você errou,o numero sorteado é menor que {numero_usuario} , sua pontuação atual é de {pontos_do_jogador}")
+        print(f"você tem atualmente {tentativas} tentativas para acertar")
+        
 
-#verifica se o usuario acertou ou não 
-if(numero_sorteado == numero_usuario):
-    print(f"você acertou, sua pontuação total é de {pontos_inicio_jogador}")
-
-elif(numero_sorteado >= numero_usuario):
-    print(f"você errou, o numero escolhido é maior, sua pontuação atual é de {tentativas}")
+    #menssagem de erro caso o jogador nao colabore
+    else:
+        print("comando invalido!")
+        break
     
-    #subitrair ponto_inicio_jogador pelo pontos_jogador 
-    #subitrair tentativas que o jogador pelo pontos_jogador 
-
-    print(f"você tem {pontos_jogador} pontos")
-
-elif(numero_sorteado <= numero_usuario):
-    print(f"você errou, o numero escolhido é menor, sua pontuação atual é de {tentativas}")
-
-    #subitrair ponto_inicio_jogador pelo pontos_jogador
-
-else:
-    print("comando invalido!")
+    numero_usuario = int( input("escolha um numero de 1 a 100: ") )#faz a pergunta novamente para o user
