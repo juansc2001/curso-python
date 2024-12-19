@@ -1,9 +1,12 @@
+import random 
+
+
 
 pontos_do_jogador = 100 #pontos que o jogador tera e que serao subtraidos ao decorrer do jogo 
 
-numero_sorteado = 31 #é o numero que o usuario tem q acertar
+numero_sorteado = random.randint(10,100) #é o numero que o usuario tem q acertar
 
-numero_usuario = " " #vai guardar a resposta do usuario 
+numero_usuario = -1 #vai guardar a resposta do usuario 
 
 dificuldade = input("escolha uma dificuldade: facil, normal ou dificil: ")#guardar  a dificuldade desejada pelo jogador
 
@@ -25,12 +28,22 @@ elif(dificuldade == "dificil"):
     pontos_subtraidos_jogador = 50  
     pontos_do_jogador = 250
 
-numero_usuario = int( input("escolha um numero de 1 a 100: ") ) #pega o numero para o sorteio
+
 
 
 #verifica se o usuario acertou ou não, faz o calculo da pontuação e tentativas restantes.
 # este loop ira funcionar até o usuario acertar o numero ou as tentativas acabarem
 while(tentativas >= 0):
+
+    if(tentativas == 0):
+        print(" ")
+        print("Numero de tentativas excedido, Reinicie o jogo")
+        break
+    
+    numero_usuario = -1 #reseta o numero certo do usuario
+    while(numero_usuario < 10 or numero_usuario > 100):#verifica se o usuario escreveu um numero de 10 a 100 
+        numero_usuario = int( input("escolha um numero entre 10 e 100: ") ) #pega o numero para o sorteio
+        
 
     #se o usuario acertar o numero
     if(numero_sorteado == numero_usuario):
@@ -39,7 +52,7 @@ while(tentativas >= 0):
         break
 
     #como o usurario não acertou o numero, algumas punições serao aplicadas
-    tentativas -= 1
+   
     pontos_do_jogador -= pontos_subtraidos_jogador
     if(pontos_do_jogador <= 0):# para que o jogador não perca mais que zero pontos
         pontos_do_jogador = 0
@@ -68,4 +81,4 @@ while(tentativas >= 0):
         print("comando invalido!")
         break
     
-    numero_usuario = int( input("escolha um numero de 1 a 100: ") )#faz a pergunta novamente para o user
+    tentativas -= 1
