@@ -36,9 +36,6 @@ class banco :
 
         return valor_transferencia
 
-        print("transferencia realizada")
-        print(f"saldo atual de {self.saldo}")
-
 
 juan_banco = banco(123,100)
 
