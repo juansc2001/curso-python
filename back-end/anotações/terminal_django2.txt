@@ -1,0 +1,303 @@
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Indian/Mahe
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Indian/Maldives
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Indian/Mauritius
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Indian/Mayotte
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Indian/Reunion
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Indian/__init__.py
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Indian/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Iran
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Israel
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Jamaica
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Japan
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Kwajalein
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Libya
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/MET
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/MST
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/MST7MDT
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Mexico/BajaNorte
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Mexico/BajaSur
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Mexico/General
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Mexico/__init__.py
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Mexico/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/NZ
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/NZ-CHAT
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Navajo
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/PRC
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/PST8PDT
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Apia
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Auckland
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Bougainville
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Chatham
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Chuuk
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Easter
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Efate
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Enderbury
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Fakaofo
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Fiji
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Funafuti
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Galapagos
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Gambier
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Guadalcanal
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Guam
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Honolulu
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Johnston
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Kanton
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Kiritimati
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Kosrae
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Kwajalein
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Majuro
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Marquesas
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Midway
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Nauru
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Niue
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Norfolk
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Noumea
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Pago_Pago
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Palau
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Pitcairn
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Pohnpei
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Ponape
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Port_Moresby
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Rarotonga
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Saipan
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Samoa
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Tahiti
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Tarawa
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Tongatapu
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Truk
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Wake
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Wallis
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/Yap
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/__init__.py
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Pacific/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Poland
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Portugal
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/ROC
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/ROK
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Singapore
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Turkey
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/UCT
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/US/Alaska
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/US/Aleutian
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/US/Arizona
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/US/Central
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/US/East-Indiana
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/US/Eastern
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/US/Hawaii
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/US/Indiana-Starke
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/US/Michigan
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/US/Mountain
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/US/Pacific
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/US/Samoa
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/US/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/UTC
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Universal
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/W-SU
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/WET
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/Zulu
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/__init__.py
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 back-end/maquina_virtual/.venv/Lib/site-packages/tzdata/zoneinfo/iso3166.tab
+PS C:\Users\51129532024.4\Desktop\curso-python>
+ *  History restored 
+
+PS C:\Users\51129532024.4\Desktop\curso-python> ls
+
+
+    Diretório: C:\Users\51129532024.4\Desktop\curso-python
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/11/2024     19:22                aula introdutoria
+----                 -------------         ------ ----
+d-----        18/11/2024     19:22                aula introdutoria
+d-----        20/01/2025     18:35                back-end
+d-----        06/12/2024     18:31                front-end
+d-----        20/01/2025     18:35                back-end
+d-----        06/12/2024     18:31                front-end
+
+
+
+
+PS C:\Users\51129532024.4\Desktop\curso-python> cd .\back-end\
+PS C:\Users\51129532024.4\Desktop\curso-python\back-end> ls
+
+PS C:\Users\51129532024.4\Desktop\curso-python> cd .\back-end\
+PS C:\Users\51129532024.4\Desktop\curso-python\back-end> ls
+
+
+    Diretório: C:\Users\51129532024.4\Desktop\curso-python\back-end
+
+    Diretório: C:\Users\51129532024.4\Desktop\curso-python\back-end
+
+
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/01/2025     18:35                anotações
+d-----        20/01/2025     18:37                atividades
+
+
+
+PS C:\Users\51129532024.4\Desktop\curso-python\back-end> cd atividade
+
+PS C:\Users\51129532024.4\Desktop\curso-python\back-end> cd atividade
+cd : Não é possível localizar o caminho 'C:\Users\51129532024.4\Desktop\curso-python\back-end\atividade' porque ele não existe.
+No linha:1 caractere:1
+cd : Não é possível localizar o caminho 'C:\Users\51129532024.4\Desktop\curso-python\back-end\atividade' porque ele não existe.
+No linha:1 caractere:1
+No linha:1 caractere:1
++ cd atividade
++ cd atividade
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\511295...k-end\atividade:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+
+PS C:\Users\51129532024.4\Desktop\curso-python\back-end> cd .\atividades\
+PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades> ls
+PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades> ls
+
+
+
+    Diretório: C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades
+
+
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/01/2025     18:37                django
+d-----        08/01/2025     20:01                exercicios_lista_dicionarios_tuplas
+d-----        13/01/2025     18:36                exercicio_orientado_objetos
+PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual> ls
+
+
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/01/2025     18:41                Include
+d-----        20/01/2025     18:41                Lib
+d-----        20/01/2025     18:41                Scripts
+-a----        20/01/2025     18:41            287 pyvenv.cfg
+PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual> maquina_virtual/scripts/activate
+maquina_virtual/scripts/activate : O termo 'maquina_virtual/scripts/activate' não é reconhecido como nome de cmdlet, função, arquivo de script ou programa operável. Verifique a grafia do nome ou, se um c
+sido incluído, veja se o caminho está correto e tente novamente.
+No linha:1 caractere:1
++ maquina_virtual/scripts/activate
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (maquina_virtual/scripts/activate:String) [], CommandNotFoundException
+PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual> maquina_virtual/scripts/activate.bat
+PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual> maquina_virtual/scripts/activate.bat
+PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual> maquina_virtual/scripts/activate.bat
+(maquina_virtual) PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual\setup> ls
+
+
+    Diretório: C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual\setup
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/01/2025     18:50                setup
+-a----        20/01/2025     18:50            683 manage.py
+
+
+(maquina_virtual) PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual\setup> python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+January 20, 2025 - 18:51:32
+Django version 5.1.5, using settings 'setup.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[20/Jan/2025 18:51:36] "GET / HTTP/1.1" 200 12068
+Not Found: /favicon.ico
+[20/Jan/2025 18:51:36] "GET /favicon.ico HTTP/1.1" 404 2207
+(maquina_virtual) PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual\setup> python manage.py 
+
+Type 'manage.py help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+
+[auth]
+    changepassword
+    createsuperuser
+
+[contenttypes]
+    remove_stale_contenttypes
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    makemessages
+    makemigrations
+    migrate
+    optimizemigration
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+
+[sessions]
+    clearsessions
+
+[staticfiles]
+    collectstatic
+Operations to perform:
+Running migrations:
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial... OK
+(maquina_virtual) PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual\setup> python manage.py startapp lista 
+(maquina_virtual) PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual\setup> cd lista
+(maquina_virtual) PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual\setup\lista> python manage.py runserver
+C:\Program Files\Python311\python.exe: can't open file 'C:\\Users\\51129532024.4\\Desktop\\curso-python\\back-end\\atividades\\django\\maquina_virtual\\setup\\lista\\manage.py': [Errno 2] No such file or directory       
+(maquina_virtual) PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual\setup\lista> python manage.py runserve 
+C:\Program Files\Python311\python.exe: can't open file 'C:\\Users\\51129532024.4\\Desktop\\curso-python\\back-end\\atividades\\django\\maquina_virtual\\setup\\lista\\manage.py': [Errno 2] No such file or directory       
+(maquina_virtual) PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual\setup\lista> cd ..
+(maquina_virtual) PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual\setup> python manage.py runserve
+Unknown command: 'runserve'. Did you mean runserver?
+Type 'manage.py help' for usage.
+(maquina_virtual) PS C:\Users\51129532024.4\Desktop\curso-python\back-end\atividades\django\maquina_virtual\setup> python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 20, 2025 - 18:59:50
+Django version 5.1.5, using settings 'setup.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
