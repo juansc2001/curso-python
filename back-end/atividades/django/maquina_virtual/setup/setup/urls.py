@@ -17,9 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from lista.views import home
+from lista.views import home, pag1_function
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',home)
+    path('',home),
+    path('pag1',pag1_function)
 ]

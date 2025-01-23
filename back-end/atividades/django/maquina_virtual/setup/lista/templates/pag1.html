@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Página Aleatória</title>
+</head>
+<body>
+
+  <h1>Bem-vindo à minha página!</h1>
+  <p>Este é um parágrafo aleatório. </p>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  <img src="https://picsum.photos/200/300" alt="Uma imagem aleatória">
+
+  <script>
+    // Vamos adicionar um botão que muda a cor do fundo quando clicado
+    const botao = document.createElement('button');
+    botao.textContent = 'Mude a cor!';
+    document.body.appendChild(botao);
+
+    botao.addEventListener('click', () => {
+      document.body.style.backgroundColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+    });
+  </script>
+
+</body>
+</html>
