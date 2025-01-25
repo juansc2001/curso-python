@@ -1,0 +1,13 @@
+criar um sistema com as telas as seguintes telas:
+
+-index.html: tela inicial
+-about.html: pagiina sobre o siste
+-contact.html: pagina de contatos
+-services.html: pagina informando os serviços oferecidos
+
+- fragmentar a base, o cabeçalho com o logo e menu e o rodape
+usar titulo, informar nome da pagina e um txto num paragrafo
+
+
+estilizar com o bootstrap5
+fazer em um projeto novo, ou seja, criar tudo do zero 

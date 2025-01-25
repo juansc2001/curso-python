@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}</title>
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+</head>
+<body>
+
+    {% block content %}
+    <header>
+        <nav class = "container">
+            <div class = 'nav bg-info'>
+                <h1>logo</h1>
+                <h1>
+                    texto texto texto
+                </h1>
+            </div>
+        </nav>
+    </header>
+
+    {%endblock%}
+
+    <main>
+        
+    </main>
+
+
+    <footer class="footer" >
+        <div>
+            <p>todos os direitos reservados</p>
+        </div>
+    </footer>
+
+</body>
+</html>
