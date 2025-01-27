@@ -3,35 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}</title>
+    <title>{% block title %} titulo {%endblock%} </title>
     {% load bootstrap5 %}
     {% bootstrap_css %}
     {% bootstrap_javascript %}
+    <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
 
-    {% block content %}
+    
     <header>
-        <nav class = "container">
-            <div class = 'nav bg-info'>
-                <h1>logo</h1>
-                <h1>
-                    texto texto texto
-                </h1>
+        <nav class = "container-fluid">
+            <div class = 'nav bg-dark text-white  fixed-top'>
+
+                {% block nav %}
+                
+                {% endblock %}
+
             </div>
+        </nav>
+        <nav class="navbar bg-secondary mt-5 navbar-expand-lg">
+            <ul class="navbar-nav d-grid nav-item  d-flex flex-row" >
+
+                <li class="nav-item">
+                    <button class="btn btn-secondary btn-block">
+                        <a href="#" class="nav-link text-body">home</a>
+                    </button>
+                </li>
+
+                <li class="nav-item">
+                <button class="btn btn-secondary btn-block">
+                    <a href="serviços" class="nav-link text-body">serviços</a>
+                </button>
+                </li>
+                
+                <li class="nav-item">
+                    <button class="btn btn-secondary btn-block">
+                        <a href="#" class="nav-link text-body">contatos</a>
+                    </button>
+                </li>
+
+                <li class="nav-item">
+                    <button class="btn btn-secondary btn-block">
+                        <a href="about" class="nav-link text-body">about</a>
+                    </button>
+                </li>
+
+            </ul>
         </nav>
     </header>
 
-    {%endblock%}
 
     <main>
-        
+        <div class="justify-content-center align-middle">
+            {% block main %}
+            {% endblock %}
+        </div>
     </main>
 
-
-    <footer class="footer" >
+    <footer class="navbar bg-secondary fixed-bottom justify-content-center" >
         <div>
-            <p>todos os direitos reservados</p>
+            {% block content %}
+            {% endblock %}
         </div>
     </footer>
 
