@@ -14,8 +14,8 @@
     
     <header>
         <nav class = "container-fluid">
-            <div class = 'nav bg-dark text-white  fixed-top'>
-
+            <div class = 'nav bg-dark text-white  fixed-top justify-content-center '>
+                <img src="../static/img/images_logo_site.png" alt="imagem da logo do site" class="logo" >
                 {% block nav %}
                 
                 {% endblock %}
@@ -27,25 +27,25 @@
 
                 <li class="nav-item">
                     <button class="btn btn-secondary btn-block">
-                        <a href="#" class="nav-link text-body">home</a>
+                        <a href="/home/" class="nav-link text-body">home</a>
                     </button>
                 </li>
 
                 <li class="nav-item">
                 <button class="btn btn-secondary btn-block">
-                    <a href="serviços" class="nav-link text-body">serviços</a>
+                    <a href="/servicos/" class="nav-link text-body">serviços</a>
                 </button>
                 </li>
                 
                 <li class="nav-item">
                     <button class="btn btn-secondary btn-block">
-                        <a href="#" class="nav-link text-body">contatos</a>
+                        <a href="/contatos/" class="nav-link text-body">contatos</a>
                     </button>
                 </li>
 
                 <li class="nav-item">
                     <button class="btn btn-secondary btn-block">
-                        <a href="about" class="nav-link text-body">about</a>
+                        <a href="/about/" class="nav-link text-body">about</a>
                     </button>
                 </li>
 
@@ -64,6 +64,7 @@
     <footer class="navbar bg-secondary fixed-bottom justify-content-center" >
         <div>
             {% block content %}
+                <p>todos os direitos reservados</p>
             {% endblock %}
         </div>
     </footer>
