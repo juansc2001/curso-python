@@ -6,3 +6,8 @@ def index(request):
 
 def contatos(request):
     return render(request,"contatos.html")
+
+
+
+def aluno_list(request):
+    
