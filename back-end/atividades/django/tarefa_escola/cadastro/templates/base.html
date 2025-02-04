@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %}</title>
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+
+</head>
+
+<body class="container-fluid">
+    <header >
+        
+        <div class="nav flex-column bg-success fixed-top  ">
+
+            <ul class="navbar-nav flex-row">
+
+            <p>logo</p>
+            {% block cabecalho %}
+
+            <h1>escola senac</h1>
+            
+            {%endblock%}
+
+            </ul>
+
+            <ul class="navbar-nav flex-row">
+
+                <a href="/index/"><button class="bnt btn-secondary ms-2">alunos cadastrados</button></a>
+                <a href="/contatos/"><button class="bnt btn-secondary ms-2">contato</button> </a>
+                
+            </ul>
+            
+        </div>
+    
+    </header>
+
+    <main class="container-fluid" style="padding-top:150px;">
+        {% block main %}
+
+        {% endblock %}
+    </main>
+
+    <footer class="nav bg-secondary fixed-bottom">
+        <p>todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
