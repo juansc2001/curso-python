@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{%block title%}title{%%}</title>
+</head>
+<body>
+    <header>
+        <h1>
+            bem vindo ao meu site
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">inicio</a></li>
+            <li><a href="/about">sobre</a></li>
+            <li><a href="/contact">contate</a></li>
+        </ul>
+    </nav>
+    <main>
+        {%block content%}
+        <p>conteudo principal vai aqui</p>
+        {%endblock%}
+    </main>
+    <footer>
+        <p>aaaaa</p>
+    </footer>
+</body>
+</html>
