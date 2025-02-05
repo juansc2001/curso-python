@@ -1,0 +1,44 @@
+
+{% load bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} * {% endblock %}</title>
+</head>
+
+<body class="container-fluid">
+ 
+    <header class="container-fluid bg-primary fixed-top">
+
+        <nav class="nav row ">
+
+            <h1>informatica cardoso</h1>
+            <nav class="navbar-nav ">
+
+                <ul class="nav-item ">
+                    <a href= "{% url 'loja' %}" ><button class= "btn-secondary">loja_online</button></a>
+                
+                <button class=" btn-secondary">cadastro</button>
+                <button class=" btn-secondary">lojas_parceiras</button>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+
+        {% endblock %}
+    </main>
+
+    <footer class="container-fluid bg-secondary fixed-bottom">
+       <p>Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
